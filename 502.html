@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>502的博客</title>
+	<style>
+	  h1.kkksc03
+	  {
+	    color:yellow;
+		text-shadow:3px 3px red;
+	    margin-bottom:0;
+	  }
+	</style>
+	<script>
+      var myVar=setInterval(function(){myTimer()},1000);
+      function myTimer()
+	  {
+	    var d=new Date();
+	    var t="现在是 "+d.toLocaleTimeString();
+	    document.getElementById("time").innerHTML=t;
+      }
+    </script>
+  </head>
+  <body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
+    <div id="container">
+      <div id="header" style="background-color:blue;">
+        <h1 class="kkksc03">502的博客</h1>
+	  </div>
+	  <div id="menu" style="background-color:#FFD700;height:3040px;width:100px;float:left;">
+        <b>菜单</b><br>
+        <a href="#OJ"><button type="button" style="background-color:blue">OJ链接</button></a><br/><br/>
+        <a href="#funny"><button type="button" style="background-color:red">搞笑图片</button></a><br/><br/>
+		<a href="#coder"><button type="button" style="background-color:cyan">程旭猿专版</button></a><br/><br/>
+        <a href="#happy"><button type="button" style="background-color:#00FF00">每日一码</button></a>
+	  </div>
+	  <div style="background-color:#F8F8F9;height:3000px;width:1233px;float:left;">
+	    <p id="time"></p>
+		<p id="OJ">这里是<strong>502的博客</strong>，提供各种到达<strong>各大OJ的连接</strong><del>(和一些别的网址)</del></p>
+	    <a href="https://www.wzoi.cc" target="_blank">
+	      <img src="https://i.loli.net/2018/07/10/5b445e5cdf39f.png" alt="温州网"/><br>
+	    </a>
+	    <a href="https://www.noi.openjudge.cn" target="_blank">
+	      <img src="https://i.loli.net/2018/07/10/5b445f0fb113e.png" alt="全国网"/><br>
+	    </a>
+	    <a href="https://www.luogu.org" target="_blank">
+	      <img src="https://i.loli.net/2018/07/10/5b445f3edf279.png" alt="洛谷" /><br>
+	    </a>
+	    <hr />
+		<p id="funny">搞笑图片</p>
+	    <img src="http://cdn.songshuhui.net/wp-content/uploads/2013/01/h3cgni.jpg" title="其实我更想知道你怎么让我停下来"/><br/>
+		<img src="http://cdn.songshuhui.net/wp-content/uploads/consequences.gif" title="通常我们会把委员会/星球的比率控制在3以下"/><br/>
+		<img src="http://cdn.songshuhui.net/wp-content/uploads/wpid-14037629013-2014-08-5-18-42.gif" title="应该有的吧，要不然我们花10年时间相互比这个是为了什么？"/><br>
+		<img src="http://cdn.songshuhui.net/wp-content/uploads/092213_1226_whatif544.gif"/><br/>
+		<img src="http://songshuhui.net/wp-content/uploads/2011/01/62531fffjw6ddea1ogaw4j.jpg" title="根据惠更斯-菲涅尔原理，（帖子）波前上的每一点都可看作新的次（帖子）波源……"/><br/>
+		<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1531397368716&di=89a12c96f878daf8a6aedaf60519c519&imgtype=0&src=http%3A%2F%2Fi5.qhimg.com%2Ft012ba52e8bded76ae7.png"/><br/>
+		<img src="http://cdn.songshuhui.net/wp-content/uploads/venus.gif" title="突如其来的金星花朵催生了许多不同寻常的地球授粉动物，这又被称为“蝴蝶效应”"/><br/>
+		<hr/>
+		<p id="coder">程旭猿专版</p>
+		<img src="http://songshuhui.net/wp-content/uploads/2011/02/cant_sleep-600.jpg" title="那一刻猛然吓醒的感觉真是刻骨铭心。"/><br/>
+		<img src="http://songshuhui.net/wp-content/uploads/2011/01/推销员.jpg"/><br/>
+		若想看到更多图片，请点击>>
+		<a href="http://songshuhui.net/archives/tag/xkcd" target="_blank">这里</a>
+	    <hr />
+	    <p id="happy">接下来来到“每日一码”环节</p>
+		  <iframe width="100%" height="390px" src="https://www.luogu.org/paste/au5jhq7j"></iframe> 
+	  </div>
+	  <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+        制作者：502
+	  </div>
+	</div>
+  </body>
+</html>
